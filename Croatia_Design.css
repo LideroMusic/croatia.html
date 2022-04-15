@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+:root {
+  --white: #f9f9f9;
+  --black: #36383f;
+  --gray: #85888c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #e2e2e2;
+  font-family: "Sora", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+::selection {
+    color: white;
+    background: #1c6ea4;
+}
+header{
+    background: #e2e2e2;
+}
+
+.nav {
+    width: 100%;
+    background-color: var(--black);
+    overflow: hidden;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+main {
+  margin: auto;
+  max-width: 85%;
+}
+
+.menu li {
+  float: left;
+}
+.menu a:hover {
+  background-color: transparent;
+  color: var(--gray);
+}
+.header_text {
+  text-align: center;
+}
+
+.header {
+  background-color: var(--black);
+  box-shadow: 1px 1px 5px 0px var(--gray);
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.menu a {
+  display: block;
+  padding: 15px;
+  color: var(--white);
+}
+.footer_copy:hover {
+  background-color: #b1e2e2;
+  color: black;
+}
+.footer_copy:active {
+  color: red;
+}
+
+figcaption {
+  text-align: center;
+  font-weight: bold;
+}
+abbr {
+  color: red;
+}
+
+h1 {
+  text-align: center;
+  color: rgba(28, 110, 164, 0.68);
+  font-family: "Bree Serif", serif;
+  font-size: 75px;
+}
+h2 {
+  font-family: "Bree Serif", serif;
+}
+.croatia {
+  width: 100%;
+  border: 1px solid;
+  margin-top: 23px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.croatia {
+  width: 100%;
+  border: 1px solid;
+  margin-top: 23px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+figure {
+  max-width: 60%;
+  margin: auto;
+}
+th,
+td {
+  border: 1px solid #7c7979;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: hsl(180, 45%, 79%);
+}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(28 110 164);
+  color: white;
+}
+p {
+    padding: 20px;
+}
+:visited {
+  color: green;
+}
+:link  {
+  color: green;
+}
